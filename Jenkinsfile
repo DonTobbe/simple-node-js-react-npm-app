@@ -9,5 +9,10 @@ pipeline {
                 bat 'npm install' 
             }
         }
+        stage ('Run'){
+            steps {
+                echo 'Testa att packa ner och installera'
+            }
+        }
     }
 }
